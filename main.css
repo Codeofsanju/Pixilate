@@ -36,3 +36,40 @@ td:hover{
 .black {background-color: black;}
 .white {background-color: white;}
 .brown {background-color: brown;}
+
+
+
+img{
+  width: 4vh;
+  height: 4vh;
+}
+#linkedIn{
+  width: 4vh;
+  height: 3.5vh;
+}
+.social{
+  transition-duration: 0.7s;
+  background-color: transparent;
+  border: transparent;
+  border-radius: 9999em;
+  margin-top: 5%;
+}
+.social:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+}
+.links{
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.footer{
+  position: absolute;
+  text-align: center;
+  height: 13%;
+  width: 100%;
+  bottom: 0;
+  color: white;
+  background: #494a6b;
+  font-size: 2vh;
+}

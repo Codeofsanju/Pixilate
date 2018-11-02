@@ -5,6 +5,9 @@ const select = document.getElementById('select');
 let count = 0;
 
 function makeRow(){
+    if(count === 16){
+        return;
+    }
     const tr = document.createElement('tr');
     table.appendChild(tr);
     for(let i = 0; i < 40; i++){
